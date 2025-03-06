@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/tvHello"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:text="Hello!"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginBottom="128dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.866">
+
+        <Button
+            android:id="@+id/btnViewCar"
+            style="@style/Widget.Material3.Button.IconButton.Outlined"
+            android:layout_width="231dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="20dp"
+            android:text="View Car"
+            android:textColor="#000000"
+            app:rippleColor="#90E799" />
+
+        <Button
+            android:id="@+id/btnViewBooking"
+            style="@style/Widget.Material3.Button.IconButton.Outlined"
+            android:layout_width="231dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="20dp"
+            android:text="View Booking"
+            android:textColor="#000000"
+            app:rippleColor="#90E799" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            style="@style/Widget.Material3.Button.IconButton.Outlined"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:onClick="logoutClicked"
+            android:text="Log Out"
+            android:textColor="#000000"
+            app:rippleColor="#90E799" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

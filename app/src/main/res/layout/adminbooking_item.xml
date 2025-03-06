@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/carImageView"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:contentDescription="Car Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_android_black_24dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="16dp">
+
+
+        <TextView
+            android:id="@+id/carNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/carNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="Car Name" />
+
+        <TextView
+            android:id="@+id/carPriceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/carPriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="Car Price" />
+
+
+        <TextView
+            android:id="@+id/bookingDateLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookingDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="Booking Date" />
+
+        <TextView
+            android:id="@+id/bookingTimeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookingTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="Booking Time" />
+
+        <TextView
+            android:id="@+id/bookingStatusLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookingStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="Booking Status" />
+
+        <!-- Add more fields as needed -->
+
+        <Button
+            android:id="@+id/viewUpdateButton"
+            style="@style/Widget.Material3.Button.IconButton.Outlined"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Update"
+            android:textColor="@color/black"
+            app:rippleColor="#A695C0" />
+
+    </LinearLayout>
+</LinearLayout>
