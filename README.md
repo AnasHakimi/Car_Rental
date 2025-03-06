@@ -1,6 +1,6 @@
 # Car Rental App using Android Studio
 
-During my 4th semester in my degree, our team developed a Car Rental APp using the Android Studio Kotlin. 
+During my 4th semester in my degree, our team developed a Car Rental App using the Android Studio Kotlin. 
 
 ## System Preview:
 
