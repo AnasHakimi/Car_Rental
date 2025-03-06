@@ -4,14 +4,14 @@ During my 4th semester in my degree, our team developed a Car Rental App using t
 
 ## System Preview:
 
-![Project Screenshot](https://github.com/AnasHakimi/Package_Tracking/blob/main/PackageTracking/AIO%20package%20tracking/login.png)
+![Project Screenshot](https://github.com/AnasHakimi/Car_Rental/blob/master/Preview/Login.png)
 - Login Page
 
-![Project Screenshot](https://github.com/AnasHakimi/Package_Tracking/blob/main/PackageTracking/AIO%20package%20tracking/1.png)
+![Project Screenshot](https://github.com/AnasHakimi/Car_Rental/blob/master/Preview/Home.png)
 - Homepage 
 
-![Project Screenshot](https://github.com/AnasHakimi/Package_Tracking/blob/main/PackageTracking/AIO%20package%20tracking/dashboard.png)
-- User Dashboard
+![Project Screenshot](https://github.com/AnasHakimi/Car_Rental/blob/master/Preview/ViewCar.png)
+- View Car
 
-![Project Screenshot](https://github.com/AnasHakimi/Package_Tracking/blob/main/PackageTracking/AIO%20package%20tracking/admin%20dashboard.png)
-- Admin Dashboard
+![Project Screenshot](https://github.com/AnasHakimi/Car_Rental/blob/master/Preview/Book.png)
+- Book Car
